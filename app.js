@@ -5,7 +5,6 @@
  * @param {string} destino - Unidad final (ej: 'F', 'm', 'g').
  */
 function conversorUniversal(valor, origen, destino) {
-  // 1. Normalización y validación de tipos
 const v = parseFloat(valor);
 const uOri = origen?.toLowerCase().trim();
 const uDes = destino?.toLowerCase().trim();
